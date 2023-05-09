@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Bar */
+.top {
+    background-color: #29377C;
+    padding: 15px;
+
+}
+
+.icons {
+    padding-left: 50px;
+    color: white;
+
+}
+
+#icon {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 400px;
+    padding-right: 250px;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    margin: 0%;
+    position: relative;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+
+}
+
+ul li a {
+    padding: 40px;
+    font-weight: 600;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Home-page */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+#home::before {
+    content: "";
+    background: url('../bg3.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+.h-primary {
+    text-align: center;
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+    border: transparent;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #29377C;
+    font-size: 1.1rem;
+
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    /* color: black; */
+}
+
+.center {
+    text-align: center;
+    padding-top: 200px;
+}
+
+/* Our Programs */
+#program-box {
+    margin: 34px;
+    margin-left: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23px;
+    width: 300px;
+}
+
+#program-box img {
+    height: 150px;
+    border-radius: 30px;
+}
+
+#program-box p {
+    text-align: center;
+    text-decoration: none;
+}
+
+#program-box p a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#program-box h3 a {
+
+    text-decoration: none;
+    color: black;
+
+}
+/* Images Of VC / DEAN / HOD */
+.photos {
+    display: flex;
+    /* margin: 100px; */
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+#vc-img {
+    height: 290px;
+    width: 290px;
+    border-radius: 30px;
+}
+
+#dean-img {
+    height: 290px;
+    width: 290px;
+    border-radius: 30px;
+}
+
+#hod-img {
+    height: 290px;
+    width: 290px;
+    border-radius: 30px;
+}
+/* Images of Department Faculty */
+.images {
+    padding: 45px;
+}
+
+.faculty {
+    display: flex;
+    /* margin: 100px; */
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.image {
+    border-radius: 12px;
+}
+
+.imagee {
+    display: flex;
+    flex-direction: column;
+
+    height: 202px;
+    width: 230px;
+    padding: 50px;
+
+
+
+}
+/* Contact And Address */
+.Contact {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #29377C;
+    color: aliceblue;
+    padding: 78px;
+}
+
+.social-media {
+    padding: 23px;
+
+}
+
+.social-media h3 {
+    padding: 23px;
+
+}
+
+.social-media i {
+    padding-right: 45px;
+    cursor: pointer;
+    color: white;
+
+}
+
+footer {
+    background-color: #01172f;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 8px;
+    color: #adadad;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact {
+    position: relative;
+    margin: 0px;
+
+}
+/* Contact Us Page */
+#contact::before {
+    content: "";
+    background: url("contact.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+
+
+
+
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact-box input,
+#contact-box textarea {
+
+
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+#contact-box form {
+    width: 40%;
+
+}
+
+#contact h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#submit-btn {
+    border: transparent;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #29377C;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px;
+    color: white;
+}
+/* About Us Page */
+.about_section {
+    padding: 2rem;
+}
+
+.about_section h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about_section-block {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4rem;
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.uni-img {
+    width: 35%;
+}
+
+.paragraph {
+    width: 37rem;
+}
